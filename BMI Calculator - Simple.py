@@ -13,15 +13,18 @@ else:
     print ("An error has occured")
     exit
 
-if BMI < 18.5:
+if BMI < 18.6:
     print ("You are classed as underweight")
 
 elif 18.5 < BMI < 25:
     print ("You are classed as having a normal weight")
 
-elif 25 < BMI < 30:
+elif 25.1 < BMI < 30:
     print ("You are classed as overweight")
 
+elif 30.1 < BMI < 35:
+    print ("You are classed as obese")
+
 else:
-    print ("You are classed as obese.")
+    print ("You are going to die soon.")
 
